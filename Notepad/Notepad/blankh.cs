@@ -129,6 +129,10 @@ namespace Notepad
         {
             richTextBox1.SelectionFont = new Font("Times New Roman", 80, FontStyle.Regular);
         }
+        public void ChangeFontGeorgia()
+        {
+            richTextBox1.SelectionFont = new Font("Georgia", 80, FontStyle.Regular);
+        }
         private void blankh_FormClosed(object sender, FormClosedEventArgs e)
         {
             {

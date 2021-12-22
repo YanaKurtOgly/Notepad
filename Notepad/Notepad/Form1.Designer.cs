@@ -50,6 +50,9 @@
             this.fontCalibri = new System.Windows.Forms.ToolStripMenuItem();
             this.fontConsolas = new System.Windows.Forms.ToolStripMenuItem();
             this.fontBell = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontCourier = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontMSSans = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontTimesNewRoman = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuColor = new System.Windows.Forms.ToolStripMenuItem();
             this.colorBlack = new System.Windows.Forms.ToolStripMenuItem();
             this.colorRed = new System.Windows.Forms.ToolStripMenuItem();
@@ -64,9 +67,7 @@
             this.mnuAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.fontCourier = new System.Windows.Forms.ToolStripMenuItem();
-            this.fontMSSans = new System.Windows.Forms.ToolStripMenuItem();
-            this.fontTimesNewRoman = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontGeorgia = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,7 +82,7 @@
             this.mnuHelp});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -94,7 +95,7 @@
             this.menuItem5,
             this.mnuExit});
             this.mnuFile.Name = "mnuFile";
-            this.mnuFile.Size = new System.Drawing.Size(59, 24);
+            this.mnuFile.Size = new System.Drawing.Size(59, 26);
             this.mnuFile.Text = "&Файл";
             this.mnuFile.Click += new System.EventHandler(this.mnuFile_Click);
             // 
@@ -142,7 +143,7 @@
             this.mnuDelete,
             this.mnuSelectAll});
             this.mnuEdit.Name = "mnuEdit";
-            this.mnuEdit.Size = new System.Drawing.Size(82, 24);
+            this.mnuEdit.Size = new System.Drawing.Size(82, 26);
             this.mnuEdit.Text = "&Править";
             // 
             // mnuCut
@@ -186,7 +187,7 @@
             this.mnuFont,
             this.mnuColor});
             this.mnuForrmt.Name = "mnuForrmt";
-            this.mnuForrmt.Size = new System.Drawing.Size(77, 24);
+            this.mnuForrmt.Size = new System.Drawing.Size(77, 26);
             this.mnuForrmt.Text = "Формат";
             // 
             // mnuFont
@@ -200,7 +201,8 @@
             this.fontBell,
             this.fontCourier,
             this.fontMSSans,
-            this.fontTimesNewRoman});
+            this.fontTimesNewRoman,
+            this.fontGeorgia});
             this.mnuFont.Name = "mnuFont";
             this.mnuFont.Size = new System.Drawing.Size(224, 26);
             this.mnuFont.Text = "Шрифт...";
@@ -246,6 +248,27 @@
             this.fontBell.Size = new System.Drawing.Size(224, 26);
             this.fontBell.Text = "Bell";
             this.fontBell.Click += new System.EventHandler(this.fontBell_Click);
+            // 
+            // fontCourier
+            // 
+            this.fontCourier.Name = "fontCourier";
+            this.fontCourier.Size = new System.Drawing.Size(224, 26);
+            this.fontCourier.Text = "Courier";
+            this.fontCourier.Click += new System.EventHandler(this.fontCourier_Click);
+            // 
+            // fontMSSans
+            // 
+            this.fontMSSans.Name = "fontMSSans";
+            this.fontMSSans.Size = new System.Drawing.Size(224, 26);
+            this.fontMSSans.Text = "MS Sans";
+            this.fontMSSans.Click += new System.EventHandler(this.fontMSSans_Click);
+            // 
+            // fontTimesNewRoman
+            // 
+            this.fontTimesNewRoman.Name = "fontTimesNewRoman";
+            this.fontTimesNewRoman.Size = new System.Drawing.Size(224, 26);
+            this.fontTimesNewRoman.Text = "Times New Roman";
+            this.fontTimesNewRoman.Click += new System.EventHandler(this.fontTimesNewRoman_Click);
             // 
             // mnuColor
             // 
@@ -294,7 +317,7 @@
             this.mnuTileHorizontal,
             this.mnuTileVertical});
             this.mnuWindow.Name = "mnuWindow";
-            this.mnuWindow.Size = new System.Drawing.Size(59, 24);
+            this.mnuWindow.Size = new System.Drawing.Size(59, 26);
             this.mnuWindow.Text = "&Окно";
             this.mnuWindow.Click += new System.EventHandler(this.mnuWindow_Click);
             // 
@@ -331,7 +354,7 @@
             this.mnuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuAbout});
             this.mnuHelp.Name = "mnuHelp";
-            this.mnuHelp.Size = new System.Drawing.Size(30, 24);
+            this.mnuHelp.Size = new System.Drawing.Size(30, 26);
             this.mnuHelp.Text = "?";
             // 
             // mnuAbout
@@ -345,26 +368,12 @@
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
-            // fontCourier
+            // fontGeorgia
             // 
-            this.fontCourier.Name = "fontCourier";
-            this.fontCourier.Size = new System.Drawing.Size(224, 26);
-            this.fontCourier.Text = "Courier";
-            this.fontCourier.Click += new System.EventHandler(this.fontCourier_Click);
-            // 
-            // fontMSSans
-            // 
-            this.fontMSSans.Name = "fontMSSans";
-            this.fontMSSans.Size = new System.Drawing.Size(224, 26);
-            this.fontMSSans.Text = "MS Sans";
-            this.fontMSSans.Click += new System.EventHandler(this.fontMSSans_Click);
-            // 
-            // fontTimesNewRoman
-            // 
-            this.fontTimesNewRoman.Name = "fontTimesNewRoman";
-            this.fontTimesNewRoman.Size = new System.Drawing.Size(224, 26);
-            this.fontTimesNewRoman.Text = "Times New Roman";
-            this.fontTimesNewRoman.Click += new System.EventHandler(this.fontTimesNewRoman_Click);
+            this.fontGeorgia.Name = "fontGeorgia";
+            this.fontGeorgia.Size = new System.Drawing.Size(224, 26);
+            this.fontGeorgia.Text = "Georgia";
+            this.fontGeorgia.Click += new System.EventHandler(this.consolasToolStripMenuItem_Click);
             // 
             // frmmain
             // 
@@ -425,6 +434,7 @@
         private System.Windows.Forms.ToolStripMenuItem fontCourier;
         private System.Windows.Forms.ToolStripMenuItem fontMSSans;
         private System.Windows.Forms.ToolStripMenuItem fontTimesNewRoman;
+        private System.Windows.Forms.ToolStripMenuItem fontGeorgia;
     }
 }
 
