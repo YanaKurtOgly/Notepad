@@ -64,6 +64,9 @@
             this.mnuAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.fontCourier = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontMSSans = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontTimesNewRoman = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -194,50 +197,53 @@
             this.fontCalisto,
             this.fontCalibri,
             this.fontConsolas,
-            this.fontBell});
+            this.fontBell,
+            this.fontCourier,
+            this.fontMSSans,
+            this.fontTimesNewRoman});
             this.mnuFont.Name = "mnuFont";
-            this.mnuFont.Size = new System.Drawing.Size(149, 26);
+            this.mnuFont.Size = new System.Drawing.Size(224, 26);
             this.mnuFont.Text = "Шрифт...";
             // 
             // fontArial
             // 
             this.fontArial.Name = "fontArial";
-            this.fontArial.Size = new System.Drawing.Size(151, 26);
+            this.fontArial.Size = new System.Drawing.Size(224, 26);
             this.fontArial.Text = "Arial";
             this.fontArial.Click += new System.EventHandler(this.fontArial_Click);
             // 
             // fontCandara
             // 
             this.fontCandara.Name = "fontCandara";
-            this.fontCandara.Size = new System.Drawing.Size(151, 26);
+            this.fontCandara.Size = new System.Drawing.Size(224, 26);
             this.fontCandara.Text = "Candara";
             this.fontCandara.Click += new System.EventHandler(this.fontCandara_Click);
             // 
             // fontCalisto
             // 
             this.fontCalisto.Name = "fontCalisto";
-            this.fontCalisto.Size = new System.Drawing.Size(151, 26);
+            this.fontCalisto.Size = new System.Drawing.Size(224, 26);
             this.fontCalisto.Text = "Calisto";
             this.fontCalisto.Click += new System.EventHandler(this.fontCalisto_Click);
             // 
             // fontCalibri
             // 
             this.fontCalibri.Name = "fontCalibri";
-            this.fontCalibri.Size = new System.Drawing.Size(151, 26);
+            this.fontCalibri.Size = new System.Drawing.Size(224, 26);
             this.fontCalibri.Text = "Calibri";
             this.fontCalibri.Click += new System.EventHandler(this.fontCalibri_Click);
             // 
             // fontConsolas
             // 
             this.fontConsolas.Name = "fontConsolas";
-            this.fontConsolas.Size = new System.Drawing.Size(151, 26);
+            this.fontConsolas.Size = new System.Drawing.Size(224, 26);
             this.fontConsolas.Text = "Consolas";
             this.fontConsolas.Click += new System.EventHandler(this.fontConsolas_Click);
             // 
             // fontBell
             // 
             this.fontBell.Name = "fontBell";
-            this.fontBell.Size = new System.Drawing.Size(151, 26);
+            this.fontBell.Size = new System.Drawing.Size(224, 26);
             this.fontBell.Text = "Bell";
             this.fontBell.Click += new System.EventHandler(this.fontBell_Click);
             // 
@@ -249,7 +255,7 @@
             this.colorBlue,
             this.colorGreen});
             this.mnuColor.Name = "mnuColor";
-            this.mnuColor.Size = new System.Drawing.Size(149, 26);
+            this.mnuColor.Size = new System.Drawing.Size(224, 26);
             this.mnuColor.Text = "Цвет...";
             // 
             // colorBlack
@@ -339,6 +345,27 @@
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
+            // fontCourier
+            // 
+            this.fontCourier.Name = "fontCourier";
+            this.fontCourier.Size = new System.Drawing.Size(224, 26);
+            this.fontCourier.Text = "Courier";
+            this.fontCourier.Click += new System.EventHandler(this.fontCourier_Click);
+            // 
+            // fontMSSans
+            // 
+            this.fontMSSans.Name = "fontMSSans";
+            this.fontMSSans.Size = new System.Drawing.Size(224, 26);
+            this.fontMSSans.Text = "MS Sans";
+            this.fontMSSans.Click += new System.EventHandler(this.fontMSSans_Click);
+            // 
+            // fontTimesNewRoman
+            // 
+            this.fontTimesNewRoman.Name = "fontTimesNewRoman";
+            this.fontTimesNewRoman.Size = new System.Drawing.Size(224, 26);
+            this.fontTimesNewRoman.Text = "Times New Roman";
+            this.fontTimesNewRoman.Click += new System.EventHandler(this.fontTimesNewRoman_Click);
+            // 
             // frmmain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -395,6 +422,9 @@
         private System.Windows.Forms.ToolStripMenuItem mnuAbout;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.ToolStripMenuItem fontCourier;
+        private System.Windows.Forms.ToolStripMenuItem fontMSSans;
+        private System.Windows.Forms.ToolStripMenuItem fontTimesNewRoman;
     }
 }
 

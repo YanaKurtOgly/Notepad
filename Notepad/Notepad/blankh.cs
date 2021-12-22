@@ -116,7 +116,19 @@ namespace Notepad
         {
             richTextBox1.SelectionFont = new Font("Consolas", 30, FontStyle.Regular);
         }
+        public void ChangeFontCourier()
+        {
+            richTextBox1.SelectionFont = new Font("Courier", 80, FontStyle.Regular);
+        }
 
+        public void ChangeFontMSSans()
+        {
+            richTextBox1.SelectionFont = new Font("MS Sans", 80, FontStyle.Regular);
+        }
+        public void ChangeFontTimesNewRoman()
+        {
+            richTextBox1.SelectionFont = new Font("Times New Roman", 80, FontStyle.Regular);
+        }
         private void blankh_FormClosed(object sender, FormClosedEventArgs e)
         {
             {

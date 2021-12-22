@@ -209,6 +209,24 @@ namespace Notepad
         {
 
         }
+
+        private void fontCourier_Click(object sender, EventArgs e)
+        {
+            blankh frm = (blankh)(this.ActiveMdiChild);
+            frm.ChangeFontCourier();
+        }
+
+        private void fontMSSans_Click(object sender, EventArgs e)
+        {
+            blankh frm = (blankh)(this.ActiveMdiChild);
+            frm.ChangeFontMSSans();
+        }
+
+        private void fontTimesNewRoman_Click(object sender, EventArgs e)
+        {
+            blankh frm = (blankh)(this.ActiveMdiChild);
+            frm.ChangeFontTimesNewRoman();
+        }
     }
 
 }
