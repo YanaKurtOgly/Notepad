@@ -227,6 +227,13 @@ namespace Notepad
             blankh frm = (blankh)(this.ActiveMdiChild);
             frm.ChangeFontGeorgia();
         }
+
+        private void mnuAbout_Click(object sender, EventArgs e)
+        {
+            About_programm dialoge = new About_programm();
+            dialoge.ShowDialog();
+
+        }
     }
 
 }

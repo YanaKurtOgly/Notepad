@@ -20,3 +20,4 @@ C:\Users\79186\Desktop\my_project\Notepad\Notepad\obj\Debug\Notepad.csproj.Gener
 C:\Users\79186\Desktop\my_project\Notepad\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
 C:\Users\79186\Desktop\my_project\Notepad\Notepad\obj\Debug\Notepad.exe
 C:\Users\79186\Desktop\my_project\Notepad\Notepad\obj\Debug\Notepad.pdb
+C:\Users\79186\Desktop\my_project\Notepad\Notepad\obj\Debug\Notepad.About_programm.resources

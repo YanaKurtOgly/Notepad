@@ -82,7 +82,7 @@
             this.mnuHelp});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -95,7 +95,7 @@
             this.menuItem5,
             this.mnuExit});
             this.mnuFile.Name = "mnuFile";
-            this.mnuFile.Size = new System.Drawing.Size(59, 26);
+            this.mnuFile.Size = new System.Drawing.Size(59, 24);
             this.mnuFile.Text = "&Файл";
             this.mnuFile.Click += new System.EventHandler(this.mnuFile_Click);
             // 
@@ -143,7 +143,7 @@
             this.mnuDelete,
             this.mnuSelectAll});
             this.mnuEdit.Name = "mnuEdit";
-            this.mnuEdit.Size = new System.Drawing.Size(82, 26);
+            this.mnuEdit.Size = new System.Drawing.Size(82, 24);
             this.mnuEdit.Text = "&Править";
             // 
             // mnuCut
@@ -187,7 +187,7 @@
             this.mnuFont,
             this.mnuColor});
             this.mnuForrmt.Name = "mnuForrmt";
-            this.mnuForrmt.Size = new System.Drawing.Size(77, 26);
+            this.mnuForrmt.Size = new System.Drawing.Size(77, 24);
             this.mnuForrmt.Text = "Формат";
             // 
             // mnuFont
@@ -317,7 +317,7 @@
             this.mnuTileHorizontal,
             this.mnuTileVertical});
             this.mnuWindow.Name = "mnuWindow";
-            this.mnuWindow.Size = new System.Drawing.Size(59, 26);
+            this.mnuWindow.Size = new System.Drawing.Size(59, 24);
             this.mnuWindow.Text = "&Окно";
             this.mnuWindow.Click += new System.EventHandler(this.mnuWindow_Click);
             // 
@@ -354,14 +354,15 @@
             this.mnuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuAbout});
             this.mnuHelp.Name = "mnuHelp";
-            this.mnuHelp.Size = new System.Drawing.Size(30, 26);
+            this.mnuHelp.Size = new System.Drawing.Size(30, 24);
             this.mnuHelp.Text = "?";
             // 
             // mnuAbout
             // 
             this.mnuAbout.Name = "mnuAbout";
-            this.mnuAbout.Size = new System.Drawing.Size(196, 26);
+            this.mnuAbout.Size = new System.Drawing.Size(224, 26);
             this.mnuAbout.Text = "О программе...";
+            this.mnuAbout.Click += new System.EventHandler(this.mnuAbout_Click);
             // 
             // openFileDialog1
             // 
